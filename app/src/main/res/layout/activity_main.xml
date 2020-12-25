@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2019 F1ReKing.
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,12 +14,12 @@
   ~ limitations under the License.
   -->
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context="me.f1reking.android_serialport.MainActivity">
 
     <EditText
@@ -49,4 +48,4 @@
         android:text="关闭串口"
         app:layout_constraintTop_toBottomOf="@id/btn_open" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
