@@ -32,7 +32,7 @@ public abstract class SerialPortReceivedThread extends Thread {
 
     public SerialPortReceivedThread(InputStream inputStream) {
         mInputStream = inputStream;
-        mReceivedBuffer = new byte[1024];
+        mReceivedBuffer = new byte[1024 * 4];
     }
 
     @Override
